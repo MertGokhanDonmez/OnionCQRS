@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApi.Api", "Presentation\OnionApi.Api\OnionApi.Api.csproj", "{57F1A16A-3640-4C7F-9184-59AF32E69FE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionApi.Domain", "Core\OnionApi.Domain\OnionApi.Domain.csproj", "{11E7E2ED-85A4-4F54-8F6B-3351F5491E55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{57F1A16A-3640-4C7F-9184-59AF32E69FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F1A16A-3640-4C7F-9184-59AF32E69FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F1A16A-3640-4C7F-9184-59AF32E69FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E7E2ED-85A4-4F54-8F6B-3351F5491E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E7E2ED-85A4-4F54-8F6B-3351F5491E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E7E2ED-85A4-4F54-8F6B-3351F5491E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E7E2ED-85A4-4F54-8F6B-3351F5491E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 		{86606A56-1B29-488A-B17B-F7D9E585CA5F} = {134A6FA4-D2CF-41EE-AD62-8FBF8D8A8AB1}
 		{D6BCFAD7-F9F1-4126-BE66-825765CC5248} = {134A6FA4-D2CF-41EE-AD62-8FBF8D8A8AB1}
 		{57F1A16A-3640-4C7F-9184-59AF32E69FE5} = {CD2E2472-0027-475B-A09F-A3DED950B27B}
+		{11E7E2ED-85A4-4F54-8F6B-3351F5491E55} = {75D78960-333A-4302-A086-5A5EF0AA1E01}
 	EndGlobalSection
 EndGlobal
